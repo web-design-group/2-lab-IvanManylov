@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding-top: 60px;
+}
+
+
+.navbar {
+    background-color: #000;
+    color: white;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #839E85;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 35px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 0px 0 15px;
+}
+
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+
+.image-float-left {
+    float: left;
+    margin: 0px 20px 0px 0;
+    padding: 5px;
+}
+
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.films-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.film-card {
+    flex: 0 0 calc(50% - 20px);
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.film-card img {
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer a{
+    font-family: "Almarai", sans-serif;
+    color: white;
+    text-decoration: 0;
+    font-size: 20px;
+}
