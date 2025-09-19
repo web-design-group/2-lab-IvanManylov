@@ -78,7 +78,7 @@ p {
 .image-float-left {
     float: left;
     margin: 0px 20px 0px 0;
-    padding: 5px;
+
 }
 
 
@@ -122,6 +122,8 @@ p {
     padding: 20px;
     margin-top: 40px;
 }
+
+
 
 .footer a{
     font-family: "Almarai", sans-serif;
